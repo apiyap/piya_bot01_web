@@ -3,12 +3,12 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<script src="http://static.robotwebtools.org/threejs/current/three.min.js"></script>
-<script src="http://static.robotwebtools.org/ColladaAnimationCompress/current/ColladaLoader2.js"></script>
-<script src="http://static.robotwebtools.org/threejs/current/STLLoader.js"></script>
-<script src="http://static.robotwebtools.org/EventEmitter2/current/eventemitter2.min.js"></script>
-<script src="http://static.robotwebtools.org/roslibjs/current/roslib.min.js"></script>
-<script src="http://static.robotwebtools.org/ros3djs/current/ros3d.min.js"></script>
+<script src="http://192.168.11.125/bot01/assets/js/threejs/current/three.min.js"></script>
+<script src="http://192.168.11.125/bot01/assets/js/ColladaAnimationCompress/current/ColladaLoader2.js"></script>
+<script src="http://192.168.11.125/bot01/assets/js/threejs/current/STLLoader.js"></script>
+<script src="http://192.168.11.125/bot01/assets/js/EventEmitter2/current/eventemitter2.min.js"></script>
+<script src="http://192.168.11.125/bot01/assets/js/roslibjs/current/roslib.min.js"></script>
+<script src="http://192.168.11.125/bot01/assets/js/ros3djs/current/ros3d.min.js"></script>
 <script>
   (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -55,7 +55,7 @@
     new ROS3D.UrdfClient({
       ros : ros,
       tfClient : tfClient,
-      path : 'http://resources.robotwebtools.org/',
+      path : 'http://192.168.11.125/bot01/assets/',
       rootObject : viewer.scene,
       loader :  ROS3D.COLLADA_LOADER_2
     });
